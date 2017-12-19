@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'at-evidera',
+  selector: 'app-evidera',
   templateUrl: './evidera.component.html',
   styleUrls: ['./evidera.component.css']
 })

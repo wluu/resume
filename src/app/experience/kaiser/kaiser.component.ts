@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'at-kaiser',
+  selector: 'app-kaiser',
   templateUrl: './kaiser.component.html',
   styleUrls: ['./kaiser.component.css']
 })

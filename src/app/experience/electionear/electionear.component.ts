@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'at-electionear',
+  selector: 'app-electionear',
   templateUrl: './electionear.component.html',
   styleUrls: ['./electionear.component.css']
 })

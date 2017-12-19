@@ -11,7 +11,7 @@ import { AppceleratorComponent } from './experience/appcelerator/appcelerator.co
 import { ParticlecodeComponent } from './experience/particlecode/particlecode.component';
 import { ElectionearComponent } from './experience/electionear/electionear.component';
 import { KaiserComponent } from './experience/kaiser/kaiser.component';
-import { UciEarthSystemScienceComponent } from './experience/uci-earth-system-science/uci-earth-system-science.component'
+import { UciEarthSystemScienceComponent } from './experience/uci-earth-system-science/uci-earth-system-science.component';
 
 
 @NgModule({
