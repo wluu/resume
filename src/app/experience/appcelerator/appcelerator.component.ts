@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-appcelerator',
+  selector: 'at-appcelerator',
   templateUrl: './appcelerator.component.html',
   styleUrls: ['./appcelerator.component.css']
 })

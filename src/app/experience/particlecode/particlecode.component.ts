@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-particlecode',
+  selector: 'at-particlecode',
   templateUrl: './particlecode.component.html',
   styleUrls: ['./particlecode.component.css']
 })

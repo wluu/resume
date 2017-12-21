@@ -1,15 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 
+import { ExperienceService } from '../experience.service';
+
 @Component({
-  selector: 'app-electionear',
+  selector: 'at-electionear',
   templateUrl: './electionear.component.html',
   styleUrls: ['./electionear.component.css']
 })
 export class ElectionearComponent implements OnInit {
-
-  constructor() { }
+  constructor(private expService: ExperienceService) { }
 
   ngOnInit() {
+    this.expService.getEvideraExp();
   }
 
 }
