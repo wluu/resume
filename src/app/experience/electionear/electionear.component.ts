@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { ExperienceService } from '../experience.service';
+import { ExperienceService } from '../core/experience.service';
 
 @Component({
   selector: 'at-electionear',
