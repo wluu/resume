@@ -11,7 +11,6 @@ export class ElectionearComponent implements OnInit {
   constructor(private expService: ExperienceService) { }
 
   ngOnInit() {
-    this.expService.getEvideraExp();
   }
 
 }

@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { SummaryComponent } from './summary/summary.component';
 import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
+import { TopLevelService } from './core/top-level.service';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { SkillsComponent } from './skills/skills.component';
     BrowserModule,
     ExperienceModule
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  providers: [TopLevelService]
 })
 export class AppModule { }
