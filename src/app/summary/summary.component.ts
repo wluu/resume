@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { TopLevelService, SummaryModel } from '../core/top-level.service';
+
 @Component({
   selector: 'my-summary',
   templateUrl: './summary.component.html',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SummaryComponent implements OnInit {
 
-  constructor() { }
+  summary: SummaryModel;
+
+  constructor(private topLevelService: TopLevelService) { }
 
   ngOnInit() {
+    this.summary = this.topLevelService.getSummary();
   }
 
 }

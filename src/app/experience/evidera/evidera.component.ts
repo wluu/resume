@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { ExperienceService, ExperienceModel } from '../core/experience.service';
+
 @Component({
   selector: 'at-evidera',
   templateUrl: './evidera.component.html',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EvideraComponent implements OnInit {
 
-  constructor() { }
+  evidera: ExperienceModel;
+
+  constructor(private experienceService: ExperienceService) { }
 
   ngOnInit() {
+    this.evidera = this.experienceService.getEvideraExp();
   }
 
 }

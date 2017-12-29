@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { ExperienceService, ExperienceModel } from '../core/experience.service';
+
 @Component({
   selector: 'at-appcelerator',
   templateUrl: './appcelerator.component.html',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppceleratorComponent implements OnInit {
 
-  constructor() { }
+  appcelerator: ExperienceModel;
+
+  constructor(private experienceService: ExperienceService) { }
 
   ngOnInit() {
+    this.appcelerator = this.experienceService.getAppceleratorExp();
   }
 
 }

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { ExperienceService, ExperienceModel } from '../core/experience.service';
+
 @Component({
   selector: 'at-particlecode',
   templateUrl: './particlecode.component.html',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParticlecodeComponent implements OnInit {
 
-  constructor() { }
+  particlecode: ExperienceModel;
+
+  constructor(private experienceService: ExperienceService) { }
 
   ngOnInit() {
+    this.particlecode = this.experienceService.getParicleCodeExp();
   }
 
 }

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { ExperienceService, ExperienceModel } from '../core/experience.service';
+
 @Component({
   selector: 'at-uci-earth-system-science',
   templateUrl: './uci-earth-system-science.component.html',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UciEarthSystemScienceComponent implements OnInit {
 
-  constructor() { }
+  uci: ExperienceModel;
+
+  constructor(private experienceService: ExperienceService) { }
 
   ngOnInit() {
+    this.uci = this.experienceService.getUciExp();
   }
 
 }
