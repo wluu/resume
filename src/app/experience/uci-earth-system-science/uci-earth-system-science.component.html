@@ -1,3 +1,9 @@
-<p>
-  uci-earth-system-science works!
-</p>
+<h3>{{ uci.company }}</h3>
+<h4>{{ uci.title }}</h4>
+<h4>{{ uci.date.start.month }} {{ uci.date.start.year }} to {{ uci.date.end.month }} {{ uci.date.end.year }}</h4>
+<h4>{{ uci.location }}</h4>
+<ul>
+  <li *ngFor="let responsibility of uci.responsibilities">
+    {{ responsibility }}
+  </li>
+</ul>

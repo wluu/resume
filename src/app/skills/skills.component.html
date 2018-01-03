@@ -1,3 +1,37 @@
-<p>
-  skills works!
-</p>
+<h1>Skills</h1>
+<h3>Languages:</h3>
+<ul>
+  <li *ngFor="let language of mySkills.languages">
+    {{ language }}
+  </li>
+</ul>
+<h3>Platforms:</h3>
+<ul>
+  <li *ngFor="let platform of mySkills.platforms">
+    {{ platform }}
+  </li>
+</ul>
+<h3>Databases:</h3>
+<ul>
+  <li *ngFor="let db of mySkills.databases">
+    {{ db }}
+  </li>
+</ul>
+<h3>OS:</h3>
+<ul>
+  <li *ngFor="let os of mySkills.operatingSystems">
+    {{ os }}
+  </li>
+</ul>
+<h3>Test Frameworks:</h3>
+<ul>
+  <li *ngFor="let platform of mySkills.testFrameworks">
+    {{ platform }}
+  </li>
+</ul>
+<h3>Other tools:</h3>
+<ul>
+  <li *ngFor="let tool of mySkills.otherTools">
+    {{ tool }}
+  </li>
+</ul>

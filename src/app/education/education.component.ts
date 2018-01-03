@@ -9,12 +9,12 @@ import { TopLevelService, EducationModel } from '../core/top-level.service';
 })
 export class EducationComponent implements OnInit {
 
-  education: EducationModel;
+  myEducation: EducationModel;
 
   constructor(private topLevelService: TopLevelService) { }
 
   ngOnInit() {
-    this.education = this.topLevelService.getEducation();
+    this.myEducation = this.topLevelService.getEducation();
   }
 
 }

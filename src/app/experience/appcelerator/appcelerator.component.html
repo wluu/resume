@@ -1,3 +1,9 @@
-<p>
-  appcelerator works!
-</p>
+<h3>{{ appcelerator.company }}</h3>
+<h4>{{ appcelerator.title }}</h4>
+<h4>{{ appcelerator.date.start.month }} {{ appcelerator.date.start.year }} to {{ appcelerator.date.end.month }} {{ appcelerator.date.end.year }}</h4>
+<h4>{{ appcelerator.location }}</h4>
+<ul>
+  <li *ngFor="let responsibility of appcelerator.responsibilities">
+    {{ responsibility }}
+  </li>
+</ul>

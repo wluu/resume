@@ -1,3 +1,9 @@
-<p>
-  kaiser works!
-</p>
+<h3>{{ kaiser.company }}</h3>
+<h4>{{ kaiser.title }}</h4>
+<h4>{{ kaiser.date.start.month }} {{ kaiser.date.start.year }} to {{ kaiser.date.end.month }} {{ kaiser.date.end.year }}</h4>
+<h4>{{ kaiser.location }}</h4>
+<ul>
+  <li *ngFor="let responsibility of kaiser.responsibilities">
+    {{ responsibility }}
+  </li>
+</ul>

@@ -9,12 +9,12 @@ import { TopLevelService, SummaryModel } from '../core/top-level.service';
 })
 export class SummaryComponent implements OnInit {
 
-  summary: SummaryModel;
+  mySummary: SummaryModel;
 
   constructor(private topLevelService: TopLevelService) { }
 
   ngOnInit() {
-    this.summary = this.topLevelService.getSummary();
+    this.mySummary = this.topLevelService.getSummary();
   }
 
 }

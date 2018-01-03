@@ -9,12 +9,12 @@ import { TopLevelService, SkillsModel } from '../core/top-level.service';
 })
 export class SkillsComponent implements OnInit {
 
-  skills: SkillsModel;
+  mySkills: SkillsModel;
 
   constructor(private topLevelService: TopLevelService) { }
 
   ngOnInit() {
-    this.skills = this.topLevelService.getSkills();
+    this.mySkills = this.topLevelService.getSkills();
   }
 
 }

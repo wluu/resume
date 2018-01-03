@@ -1,3 +1,9 @@
-<p>
-  evidera works!
-</p>
+<h3>{{ evidera.company }}</h3>
+<h4>{{ evidera.title }}</h4>
+<h4>{{ evidera.date.start.month }} {{ evidera.date.start.year }} to Current</h4>
+<h4>{{ evidera.location }}</h4>
+<ul>
+  <li *ngFor="let responsibility of evidera.responsibilities">
+    {{ responsibility }}
+  </li>
+</ul>

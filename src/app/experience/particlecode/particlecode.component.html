@@ -1,3 +1,9 @@
-<p>
-  particlecode works!
-</p>
+<h3>{{ particlecode.company }}</h3>
+<h4>{{ particlecode.title }}</h4>
+<h4>{{ particlecode.date.start.month }} {{ particlecode.date.start.year }} to {{ particlecode.date.end.month }} {{ particlecode.date.end.year }}</h4>
+<h4>{{ particlecode.location }}</h4>
+<ul>
+  <li *ngFor="let responsibility of particlecode.responsibilities">
+    {{ responsibility }}
+  </li>
+</ul>
