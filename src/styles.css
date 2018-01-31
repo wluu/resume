@@ -3,7 +3,12 @@
   box-sizing: border-box;
 }
 
-/* will use rem unit in the child elements */
 html {
+  /* will use rem unit in the child elements */
   font-size: 10px;
+  margin: 0 auto;
+  width: 900px;
+}
+html h1 {
+  font-size: 4rem;
 }
