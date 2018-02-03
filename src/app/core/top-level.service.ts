@@ -53,10 +53,10 @@ export class TopLevelService {
   getSkills(): SkillsModel {
     return {
       languages: ['TypeScript', 'JavaScript', 'Shell'],
-      platforms: ['Angular', 'NodeJS', 'Android', 'iOS'],
-      databases: ['MySql', 'MongoDb'],
+      platforms: ['NodeJS', 'Angular', 'Android', 'iOS'],
+      databases: ['MySql', 'MongoDb', 'PostgresSQL'],
       operatingSystems: ['macOS', 'Windows', 'Ubuntu'],
-      testFrameworks: ['Protractor', 'mochaJS'],
+      testFrameworks: ['mochaJS', 'Protractor'],
       otherTools: ['Git', 'Jira']
     };
   }

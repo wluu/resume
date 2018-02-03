@@ -4,4 +4,5 @@ h1 {
 
 .app-grid-container {
   display: grid;
+  grid-row-gap: 15px;
 }
