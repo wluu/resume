@@ -40,7 +40,7 @@ export class TopLevelService {
   getEducation(): EducationModel {
     return {
       school: 'University of California, Irvine',
-      degree: 'Bachelor of Science',
+      degree: 'B.S.',
       major: 'Computer Science',
       minor: 'Mathematics',
       date: {

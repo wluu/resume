@@ -1,0 +1,17 @@
+.education-grid-container {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.education-grid-container h2 {
+  margin: 0;
+}
+
+.education-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.education-section .date {
+  text-align: right;
+}

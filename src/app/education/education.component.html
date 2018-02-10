@@ -1,7 +1,12 @@
 <h1>Education</h1>
-<h4>{{ myEducation.school }}</h4>
-<h4>{{ myEducation.degree }}</h4>
-<h4>{{ myEducation.major }}</h4>
-<h4>{{ myEducation.minor }}</h4>
-<h4>Start: {{ myEducation.date.start.month }} {{ myEducation.date.start.year }}</h4>
-<h4>End: {{ myEducation.date.end.month }} {{ myEducation.date.end.year }}</h4>
+<div class="education-grid-container">
+  <div class="education-section">
+    <h2>{{ myEducation.degree }} in {{ myEducation.major }}, Minor in {{ myEducation.minor }}</h2>
+    <h2 class="date">
+      {{ myEducation.date.start.month }} {{ myEducation.date.start.year }} - {{ myEducation.date.end.month }} {{ myEducation.date.end.year }}
+    </h2>
+  </div>
+  <div>
+    <h2>{{ myEducation.school }}</h2>
+  </div>
+</div>
