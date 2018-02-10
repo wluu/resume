@@ -8,24 +8,22 @@
     "go": "npm run lint && npm run deploy"
   },
   "dependencies": {
+    "@angular/cli": "^1.6.7",
     "@angular/common": "^5.2.3",
     "@angular/compiler": "^5.2.3",
+    "@angular/compiler-cli": "^5.2.3",
     "@angular/core": "^5.2.3",
+    "@angular/language-service": "^5.2.3",
     "@angular/platform-browser": "^5.2.3",
     "@angular/platform-browser-dynamic": "^5.2.3",
     "@angular/router": "^5.2.3",
-    "core-js": "^2.4.1",
-    "rxjs": "^5.5.6",
-    "zone.js": "^0.8.20"
-  },
-  "devDependencies": {
-    "@angular/cli": "^1.6.7",
-    "@angular/compiler-cli": "^5.2.3",
-    "@angular/language-service": "^5.2.3",
     "@types/node": "^6.0.96",
     "codelyzer": "^4.1.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.5.6",
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
-    "typescript": "^2.7.1"
+    "typescript": "^2.7.1",
+    "zone.js": "^0.8.20"
   }
 }
