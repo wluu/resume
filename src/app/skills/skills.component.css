@@ -1,7 +1,7 @@
 .skills-grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr 65px;
+  grid-template-rows: 1fr 80px;
   grid-row-gap: 5px;
 }
 
@@ -12,7 +12,7 @@
 
 .grid-cell ul {
   list-style-type: none;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding: 0;
   margin: 0;
 }

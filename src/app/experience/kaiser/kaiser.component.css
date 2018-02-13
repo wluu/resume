@@ -1,0 +1,15 @@
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-weight: bold;
+}
+
+.row .right-align-item {
+  text-align: right;
+}
+
+ul {
+  padding: 0;
+  margin: 10px 0 20px 20px;
+  list-style-type: circle;
+}

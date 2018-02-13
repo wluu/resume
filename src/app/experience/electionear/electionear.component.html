@@ -1,7 +1,11 @@
-<h3>{{ electionear.company }}</h3>
-<h4>{{ electionear.title }}</h4>
-<h4>{{ electionear.date.start.month }} {{ electionear.date.start.year }} to {{ electionear.date.end.month }} {{ electionear.date.end.year }}</h4>
-<h4>{{ electionear.location }}</h4>
+<div class="row">
+  <span>{{ electionear.company }}</span>
+  <span class="right-align-item">{{ electionear.location }}</span>
+</div>
+<div class="row">
+  <span>{{ electionear.title }}</span>
+  <span class="right-align-item">{{ electionear.date.start.month }} {{ electionear.date.start.year }} to {{ electionear.date.end.month }} {{ electionear.date.end.year }}</span>
+</div>
 <ul>
   <li *ngFor="let responsibility of electionear.responsibilities">
     {{ responsibility }}

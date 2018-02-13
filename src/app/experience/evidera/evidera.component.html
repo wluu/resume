@@ -1,7 +1,11 @@
-<h3>{{ evidera.company }}</h3>
-<h4>{{ evidera.title }}</h4>
-<h4>{{ evidera.date.start.month }} {{ evidera.date.start.year }} to Current</h4>
-<h4>{{ evidera.location }}</h4>
+<div class="row">
+  <span>{{ evidera.company }}</span>
+  <span class="right-align-item">{{ evidera.location }}</span>
+</div>
+<div class="row">
+  <span>{{ evidera.title }}</span>
+  <span class="right-align-item">{{ evidera.date.start.month }} {{ evidera.date.start.year }} to Current</span>
+</div>
 <ul>
   <li *ngFor="let responsibility of evidera.responsibilities">
     {{ responsibility }}

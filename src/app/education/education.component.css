@@ -1,10 +1,5 @@
-.education-grid-container {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-}
-
-.education-grid-container h2 {
-  margin: 0;
+span {
+  font-size: 2rem;
 }
 
 .education-section {
