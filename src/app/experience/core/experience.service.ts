@@ -18,8 +18,8 @@ export class ExperienceService {
       title: 'Software Quality Assurance Engineer',
       company: 'Evalytica (subsidiary of Evidera)',
       date: {
-        start: {month: 'July', year: '2017'},
-        end: {month: '', year: ''}
+        start: new Date(2017, 6),
+        end: new Date()
       },
       location: 'San Francisco, CA',
       responsibilities: [
@@ -34,8 +34,8 @@ export class ExperienceService {
       title: 'Senior Quality Engineer',
       company: 'Appcelerator (acquired by Axway)',
       date: {
-        start: {month: 'Oct', year: '2011'},
-        end: {month: 'Jun', year: '2017'}
+        start: new Date(2011, 9),
+        end: new Date(2017, 5)
       },
       location: 'San Jose, CA',
       responsibilities: [
@@ -58,8 +58,8 @@ export class ExperienceService {
       title: 'Quality Engineer',
       company: 'ParticleCode (acquired by Appcelerator)',
       date: {
-        start: {month: 'Aug', year: '2011'},
-        end: {month: 'Oct', year: '2011'}
+        start: new Date(2011, 7),
+        end: new Date(2011, 9)
       },
       location: 'Palo Alto, CA',
       responsibilities: [
@@ -75,8 +75,8 @@ export class ExperienceService {
       title: 'Software Engineer',
       company: 'Electionear Inc.',
       date: {
-        start: {month: 'Oct', year: '2010'},
-        end: {month: 'May', year: '2011'}
+        start: new Date(2010, 9),
+        end: new Date(2011, 4)
       },
       location: 'Mountain View, CA',
       responsibilities: [
@@ -93,8 +93,8 @@ export class ExperienceService {
       title: 'Program Analyst',
       company: 'Kaiser Permanente',
       date: {
-        start: {month: 'Aug', year: '2009'},
-        end: {month: 'Aug', year: '2010'}
+        start: new Date(2009, 7),
+        end: new Date(2010, 7)
       },
       location: 'Pasadena, CA',
       responsibilities: [
@@ -110,8 +110,8 @@ export class ExperienceService {
       title: 'Student Programmer',
       company: 'UC Irvine\'s Earth System Science Department',
       date: {
-        start: {month: 'September', year: '2008'},
-        end: {month: 'December', year: '2008'}
+        start: new Date(2008, 8),
+        end: new Date(2008, 11)
       },
       location: 'Irvine, CA',
       responsibilities: [

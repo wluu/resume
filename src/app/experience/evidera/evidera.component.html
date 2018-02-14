@@ -4,7 +4,7 @@
 </div>
 <div class="row">
   <span>{{ evidera.title }}</span>
-  <span class="right-align-item">{{ evidera.date.start.month }} {{ evidera.date.start.year }} to Current</span>
+  <span class="right-align-item">{{ evidera.date.start | date:'MMM yyyy' }} to Current</span>
 </div>
 <ul>
   <li *ngFor="let responsibility of evidera.responsibilities">

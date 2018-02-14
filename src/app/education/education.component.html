@@ -2,7 +2,7 @@
 <div class="education-section">
   <span>{{ myEducation.degree }} in {{ myEducation.major }}, Minor in {{ myEducation.minor }}</span>
   <span class="date">
-    {{ myEducation.date.start.month }} {{ myEducation.date.start.year }} - {{ myEducation.date.end.month }} {{ myEducation.date.end.year }}
+    {{ myEducation.date.start | date:'MMM yyyy' }} - {{ myEducation.date.end | date:'MMM yyyy' }}
   </span>
 </div>
 <span>{{ myEducation.school }}</span>

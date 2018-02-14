@@ -4,7 +4,7 @@
 </div>
 <div class="row">
   <span>{{ appcelerator.title }}</span>
-  <span class="right-align-item">{{ appcelerator.date.start.month }} {{ appcelerator.date.start.year }} to {{ appcelerator.date.end.month }} {{ appcelerator.date.end.year }}</span>
+  <span class="right-align-item">{{ appcelerator.date.start | date:'MMM yyyy' }} to {{ appcelerator.date.end | date:'MMM yyyy' }}</span>
 </div>
 <ul>
   <li *ngFor="let responsibility of appcelerator.responsibilities">

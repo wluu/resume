@@ -4,7 +4,7 @@
 </div>
 <div class="row">
   <span>{{ electionear.title }}</span>
-  <span class="right-align-item">{{ electionear.date.start.month }} {{ electionear.date.start.year }} to {{ electionear.date.end.month }} {{ electionear.date.end.year }}</span>
+  <span class="right-align-item">{{ electionear.date.start | date:'MMM yyyy' }} to {{ electionear.date.end | date:'MMM yyyy' }}</span>
 </div>
 <ul>
   <li *ngFor="let responsibility of electionear.responsibilities">

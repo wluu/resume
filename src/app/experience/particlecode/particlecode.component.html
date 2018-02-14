@@ -4,7 +4,7 @@
 </div>
 <div class="row">
   <span>{{ particlecode.title }}</span>
-  <span class="right-align-item">{{ particlecode.date.start.month }} {{ particlecode.date.start.year }} to {{ particlecode.date.end.month }} {{ particlecode.date.end.year }}</span>
+  <span class="right-align-item">{{ particlecode.date.start | date:'MMM yyyy' }} to {{ particlecode.date.end | date:'MMM yyyy' }}</span>
 </div>
 <ul>
   <li *ngFor="let responsibility of particlecode.responsibilities">

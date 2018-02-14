@@ -44,8 +44,8 @@ export class TopLevelService {
       major: 'Computer Science',
       minor: 'Mathematics',
       date: {
-        start: { month: 'Sep', year: '2005' },
-        end: { month: 'Jun', year: '2009' }
+        start: new Date(2005, 8),
+        end: new Date(2009, 5)
       }
     };
   }

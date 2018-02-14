@@ -4,7 +4,7 @@
 </div>
 <div class="row">
   <span>{{ uci.title }}</span>
-  <span class="right-align-item">{{ uci.date.start.month }} {{ uci.date.start.year }} to {{ uci.date.end.month }} {{ uci.date.end.year }}</span>
+  <span class="right-align-item">{{ uci.date.start | date:'MMM yyyy' }} to {{ uci.date.end | date:'MMM yyyy' }}</span>
 </div>
 <ul>
   <li *ngFor="let responsibility of uci.responsibilities">
