@@ -4,7 +4,7 @@
 </div>
 <div class="row">
   <span>{{ kaiser.title }}</span>
-  <span class="right-align-item">{{ kaiser.date.start | date:'MMM yyyy' }} to {{ kaiser.date.end | date:'MMM yyyy' }}</span>
+  <span class="right-align-item">{{ kaiser.date.start | date:'MMM yy' }} - {{ kaiser.date.end | date:'MMM yy' }}</span>
 </div>
 <ul>
   <li *ngFor="let responsibility of kaiser.responsibilities">

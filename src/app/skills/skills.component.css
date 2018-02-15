@@ -5,6 +5,10 @@
   grid-row-gap: 5px;
 }
 
+.skills-grid-container ul {
+  line-height: 1.3;
+}
+
 .grid-cell h2 {
   font-size: 2rem;
   margin: 0;
