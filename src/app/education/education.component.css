@@ -4,7 +4,12 @@ span {
 
 .education-section {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.education-section .degree {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 .education-section .date {

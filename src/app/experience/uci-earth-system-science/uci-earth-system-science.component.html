@@ -1,10 +1,10 @@
 <div class="row">
-  <span>{{ uci.company }}</span>
-  <span class="right-align-item">{{ uci.location }}</span>
+  <span class="company">{{ uci.company }}</span>
+  <span class="location">{{ uci.location }}</span>
 </div>
 <div class="row">
-  <span>{{ uci.title }}</span>
-  <span class="right-align-item">{{ uci.date.start | date:'MMM yy' }} - {{ uci.date.end | date:'MMM yy' }}</span>
+  <span class="role">{{ uci.title }}</span>
+  <span class="date">{{ uci.date.start | date:'MMM yy' }} - {{ uci.date.end | date:'MMM yy' }}</span>
 </div>
 <ul>
   <li *ngFor="let responsibility of uci.responsibilities">

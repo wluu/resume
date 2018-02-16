@@ -1,9 +1,16 @@
+@font-face {
+  font-family: 'noto_monoregular';
+  src: url('./assets/notomono-regular-webfont.woff2') format('woff2'),
+       url('./assets/notomono-regular-webfont.woff') format('woff');
+}
+
 * {
   /* this will help with specifying an element's width i.e. padding + border + margin will be included in the width */
   box-sizing: border-box;
 }
 
 html {
+  font-family: noto_monoregular;
   /* will use rem unit in the child elements */
   font-size: 10px;
   margin: 1% auto;
@@ -16,5 +23,6 @@ html h1 {
 }
 
 html ul {
-  line-height: 1.5;
+  line-height: 2;
+  font-size: 1.7rem;
 }
