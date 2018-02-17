@@ -1,4 +1,4 @@
-This is my resume.
+This is my resume: https://wluu.github.io/resume/
 
 I built it using Angular ... it's ridiculous, I know.
 
