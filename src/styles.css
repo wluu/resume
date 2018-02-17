@@ -13,6 +13,8 @@ html {
   font-family: noto_monoregular;
   /* will use rem unit in the child elements */
   font-size: 10px;
+  color: white;
+  background-color: black;
   margin: 1% auto;
   width: 900px;
 }
