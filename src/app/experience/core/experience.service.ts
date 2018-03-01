@@ -16,7 +16,7 @@ export class ExperienceService {
   getEvideraExp(): ExperienceModel {
     return {
       title: 'Software Quality Assurance Engineer',
-      company: 'Evalytica (subsidiary of Evidera)',
+      company: 'Evalytica (acquired by Allscripts)',
       date: {
         start: new Date(2017, 6),
         end: new Date()
