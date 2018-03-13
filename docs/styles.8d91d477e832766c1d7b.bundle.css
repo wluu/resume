@@ -1,3 +1,0 @@
-@font-face{font-family:noto_monoregular;src:url(notomono-regular-webfont.30da257f0d2749b4da3f.woff2) format("woff2"),url(notomono-regular-webfont.1e1bc2cdd63ea6c7417b.woff) format("woff")}*{
-  /* this will help with specifying an element's width i.e. padding + border + margin will be included in the width */-webkit-box-sizing:border-box;box-sizing:border-box}html{font-family:noto_monoregular;
-  /* will use rem unit in the child elements */font-size:10px;color:#fff;background-color:#000;margin:1% auto;width:900px}html h1{font-size:4rem;margin:0 0 5px 0}html ul{line-height:2;font-size:1.7rem}
