@@ -14,7 +14,7 @@ html {
   /* will use rem unit in the child elements */
   font-size: 10px;
   color: white;
-  background-color: black;
+  background-color: #21252b;
   margin: 1% auto;
   width: 900px;
 }

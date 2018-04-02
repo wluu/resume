@@ -23,7 +23,8 @@ export class ExperienceService {
       },
       location: 'San Francisco, CA',
       responsibilities: [
-        'Currently maintaining (and occasionally rewriting) the Protractor framework, which executes 86 end-to-end web UI test cases.',
+        'Currently maintaining (and occasionally rewriting) the Protractor framework, ' +
+        'which executes over 100 end-to-end web UI test cases.',
         'Perform daily QA responsibilities e.g. manual testing, ticket verification, and test case creation.'
       ]
     };
