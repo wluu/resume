@@ -1,0 +1,13 @@
+<div class="row">
+  <span>{{ evalytica.company }}</span>
+  <span class="right-align-item">{{ evalytica.location }}</span>
+</div>
+<div class="row">
+  <span>{{ evalytica.title }}</span>
+  <span class="right-align-item">{{ evalytica.date.start | date:'MMM yy' }} - Present</span>
+</div>
+<ul>
+  <li *ngFor="let responsibility of evalytica.responsibilities">
+    {{ responsibility }}
+  </li>
+</ul>

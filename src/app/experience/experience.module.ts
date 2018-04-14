@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ExperienceComponent } from './experience.component';
-import { EvideraComponent } from './evidera/evidera.component';
+import { EvalyticaComponent } from './evalytica/evalytica.component';
 import { AppceleratorComponent } from './appcelerator/appcelerator.component';
 import { ParticlecodeComponent } from './particlecode/particlecode.component';
 import { ElectionearComponent } from './electionear/electionear.component';
@@ -17,7 +17,7 @@ import { ExperienceService } from './core/experience.service';
   ],
   declarations: [
     ExperienceComponent,
-    EvideraComponent,
+    EvalyticaComponent,
     AppceleratorComponent,
     ParticlecodeComponent,
     ElectionearComponent,
