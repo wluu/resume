@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { TopLevelService, EducationModel } from '../core/top-level.service';
+import { EducationModel } from '../core/top-level.models';
 
 @Component({
   selector: 'my-education',
@@ -11,10 +11,17 @@ export class EducationComponent implements OnInit {
 
   myEducation: EducationModel;
 
-  constructor(private topLevelService: TopLevelService) { }
-
   ngOnInit() {
-    this.myEducation = this.topLevelService.getEducation();
+    this.myEducation = {
+      school: 'University of California, Irvine',
+      degree: 'B.S.',
+      major: 'Computer Science',
+      minor: 'Mathematics',
+      date: {
+        start: new Date(2005, 8),
+        end: new Date(2009, 5)
+      }
+    };
   }
 
 }

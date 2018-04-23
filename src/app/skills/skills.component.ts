@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { TopLevelService, SkillsModel } from '../core/top-level.service';
+import { SkillsModel } from '../core/top-level.models';
 
 @Component({
   selector: 'my-skills',
@@ -11,10 +11,15 @@ export class SkillsComponent implements OnInit {
 
   mySkills: SkillsModel;
 
-  constructor(private topLevelService: TopLevelService) { }
-
   ngOnInit() {
-    this.mySkills = this.topLevelService.getSkills();
+    this.mySkills = {
+      languages: ['TypeScript', 'JavaScript', 'Shell'],
+      platforms: ['NodeJS', 'Angular', 'Android', 'iOS'],
+      databases: ['MySql', 'MongoDb', 'PostgresSQL'],
+      operatingSystems: ['macOS', 'Windows', 'Ubuntu'],
+      testFrameworks: ['mochaJS', 'Protractor'],
+      otherTools: ['Git', 'Jira']
+    };
   }
 
 }

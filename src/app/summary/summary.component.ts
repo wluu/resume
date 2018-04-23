@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { TopLevelService, SummaryModel } from '../core/top-level.service';
+import { SummaryModel } from '../core/top-level.models';
 
 @Component({
   selector: 'my-summary',
@@ -11,10 +11,14 @@ export class SummaryComponent implements OnInit {
 
   mySummary: SummaryModel;
 
-  constructor(private topLevelService: TopLevelService) { }
-
   ngOnInit() {
-    this.mySummary = this.topLevelService.getSummary();
+    this.mySummary = {
+      texts: [
+        'Not afraid to learn and research new technologies to solve problems.',
+        'Can quickly learn new programming languages that are needed for the task.',
+        'Willing to teach those who need help with understanding new technical concepts and how a product works.'
+      ]
+    };
   }
 
 }

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { ExperienceService, ExperienceModel } from '../core/experience.service';
+import { ExperienceModel } from '../core/experience.model';
 
 @Component({
   selector: 'at-particlecode',
@@ -11,10 +11,21 @@ export class ParticlecodeComponent implements OnInit {
 
   particlecode: ExperienceModel;
 
-  constructor(private experienceService: ExperienceService) { }
-
   ngOnInit() {
-    this.particlecode = this.experienceService.getParicleCodeExp();
+    this.particlecode = {
+      title: 'Quality Engineer',
+      company: 'ParticleCode (acquired by Appcelerator)',
+      date: {
+        start: new Date(2011, 7),
+        end: new Date(2011, 9)
+      },
+      location: 'Palo Alto, CA',
+      responsibilities: [
+        'Took over an existing automation test suite and refactored it.',
+        'Maintained sample apps that showcased ParticleCode\'s cross-platform game engine.',
+        'Updated and added test cases to existing test plans.'
+      ]
+    };
   }
 
 }

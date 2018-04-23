@@ -9,8 +9,6 @@ import { ElectionearComponent } from './electionear/electionear.component';
 import { KaiserComponent } from './kaiser/kaiser.component';
 import { UciEarthSystemScienceComponent } from './uci-earth-system-science/uci-earth-system-science.component';
 
-import { ExperienceService } from './core/experience.service';
-
 @NgModule({
   imports: [
     CommonModule
@@ -26,7 +24,6 @@ import { ExperienceService } from './core/experience.service';
   ],
   exports: [
     ExperienceComponent
-  ],
-  providers: [ExperienceService]
+  ]
 })
 export class ExperienceModule { }

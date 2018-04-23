@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { ExperienceService, ExperienceModel } from '../core/experience.service';
+import { ExperienceModel } from '../core/experience.model';
 
 @Component({
   selector: 'at-evalytica',
@@ -11,10 +11,21 @@ export class EvalyticaComponent implements OnInit {
 
   evalytica: ExperienceModel;
 
-  constructor(private experienceService: ExperienceService) { }
-
   ngOnInit() {
-    this.evalytica = this.experienceService.getEvideraExp();
+    this.evalytica = {
+      title: 'Senior Quality Engineer',
+      company: 'Evalytica (acquired by Allscripts)',
+      date: {
+        start: new Date(2017, 6),
+        end: new Date()
+      },
+      location: 'San Francisco, CA',
+      responsibilities: [
+        'Currently maintaining (and occasionally rewriting) the Protractor framework, ' +
+        'which executes over 100 end-to-end web UI test cases.',
+        'Perform daily QA responsibilities e.g. manual testing, ticket verification, and test case creation.'
+      ]
+    };
   }
 
 }
