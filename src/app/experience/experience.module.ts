@@ -7,7 +7,6 @@ import { AppceleratorComponent } from './appcelerator/appcelerator.component';
 import { ParticlecodeComponent } from './particlecode/particlecode.component';
 import { ElectionearComponent } from './electionear/electionear.component';
 import { KaiserComponent } from './kaiser/kaiser.component';
-import { UciEarthSystemScienceComponent } from './uci-earth-system-science/uci-earth-system-science.component';
 
 @NgModule({
   imports: [
@@ -19,8 +18,7 @@ import { UciEarthSystemScienceComponent } from './uci-earth-system-science/uci-e
     AppceleratorComponent,
     ParticlecodeComponent,
     ElectionearComponent,
-    KaiserComponent,
-    UciEarthSystemScienceComponent
+    KaiserComponent
   ],
   exports: [
     ExperienceComponent
