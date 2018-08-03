@@ -14,9 +14,10 @@ export class SummaryComponent implements OnInit {
   ngOnInit() {
     this.mySummary = {
       texts: [
-        'Not afraid to learn and research new technologies to solve problems.',
-        'Can quickly learn new programming languages that are needed for the task.',
-        'Willing to teach those who need help with understanding new technical concepts and how a product works.'
+        'Experience automating in the web, mobile, and backend space.',
+        'Enjoy learning new programming languages and tools to help better the product.',
+        'Can lead a team and react accordingly when critical issues show up in production.',
+        'Will teach those who need help with understanding new technical concepts and how a product works.'
       ]
     };
   }

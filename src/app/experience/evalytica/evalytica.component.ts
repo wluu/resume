@@ -14,7 +14,7 @@ export class EvalyticaComponent implements OnInit {
   ngOnInit() {
     this.evalytica = {
       title: 'Senior Quality Engineer',
-      company: 'Allscripts',
+      company: 'Allscripts (with Evalytica)',
       date: {
         start: new Date(2017, 6),
         end: new Date()
