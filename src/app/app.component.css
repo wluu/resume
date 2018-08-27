@@ -3,6 +3,10 @@ h1, h2 {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 .app-grid-container {
   display: grid;
   grid-row-gap: 15px;
