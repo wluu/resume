@@ -14,10 +14,10 @@ export class SkillsComponent implements OnInit {
   ngOnInit() {
     this.mySkills = {
       languages: ['TypeScript', 'JavaScript', 'Shell'],
-      platforms: ['NodeJS', 'Angular', 'Android', 'iOS'],
+      platforms: ['Node.js', 'Angular', 'Android', 'iOS'],
       databases: ['MySql', 'MongoDb', 'PostgresSQL'],
       operatingSystems: ['macOS', 'Windows', 'Ubuntu'],
-      testFrameworks: ['mochaJS', 'Protractor'],
+      testFrameworks: ['Mocha', 'Jasmine', 'Protractor', 'Selenium'],
       otherTools: ['Git', 'Jira']
     };
   }
