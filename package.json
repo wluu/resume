@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
+    "local": "ng serve",
     "lint": "ng lint",
     "deploy": "ng build --aot --prod --output-path ./docs --base-href resume",
     "go": "npm run lint && npm run deploy"

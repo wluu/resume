@@ -1,8 +1,11 @@
+h1 {
+  text-align: center;
+}
+
 .skills-grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr auto;
-  grid-row-gap: 5px;
 }
 
 .skills-grid-container ul {
@@ -19,4 +22,14 @@
   font-size: 1.6rem;
   padding: 0;
   margin: 0;
+}
+
+.grid-cell.platforms,
+.grid-cell.test-frameworks {
+  text-align: center;
+}
+
+.grid-cell.databases,
+.grid-cell.other-tools {
+  text-align: right;
 }
