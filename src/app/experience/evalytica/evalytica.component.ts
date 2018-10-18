@@ -17,7 +17,7 @@ export class EvalyticaComponent implements OnInit {
       company: 'Allscripts (with Evalytica)',
       date: {
         start: new Date(2017, 6),
-        end: new Date(2018, 10)
+        end: new Date(2018, 9)
       },
       location: 'San Francisco, CA',
       responsibilities: [

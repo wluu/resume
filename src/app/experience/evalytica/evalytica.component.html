@@ -4,7 +4,7 @@
 </div>
 <div class="row">
   <span>{{ evalytica.title }}</span>
-  <span class="right-align-item">{{ evalytica.date.start | date:'MMM yy' }} - Present</span>
+  <span class="right-align-item">{{ evalytica.date.start | date:'MMM yy' }} - {{ evalytica.date.end | date:'MMM yy' }}</span>
 </div>
 <ul>
   <li *ngFor="let responsibility of evalytica.responsibilities">
