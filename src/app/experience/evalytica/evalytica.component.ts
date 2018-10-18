@@ -17,13 +17,13 @@ export class EvalyticaComponent implements OnInit {
       company: 'Allscripts (with Evalytica)',
       date: {
         start: new Date(2017, 6),
-        end: new Date()
+        end: new Date(2018, 10)
       },
       location: 'San Francisco, CA',
       responsibilities: [
-        'Currently maintaining (and occasionally rewriting) the Protractor framework, ' +
-        'which executes over 120 end-to-end web UI test cases.',
-        'Perform daily QA responsibilities e.g. manual testing, ticket verification, and test case creation.'
+        'Maintained (and occasionally rewrote) the Protractor framework, ' +
+        'which executed over 120 end-to-end web UI test cases.',
+        'Performed daily QA responsibilities e.g. manual testing, ticket verification, and test case creation.'
       ]
     };
   }
